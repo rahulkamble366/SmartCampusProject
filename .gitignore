@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+*.whl
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+htmlcov/
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+*/venv/
+*/env/
+smart_campus_env/ # Your specific virtual environment folder
+
+# Editors
+.vscode/ # VS Code settings, but you might want to keep some if collaborating
+.idea/    # PyCharm
+*.swp     # vim
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Django stuff:
+# Static files
+/static
+/staticfiles
+
+# Media files
+/media
+
+# Local settings
+local_settings.py
+
+# Database
+*.sqlite3
+*.db
